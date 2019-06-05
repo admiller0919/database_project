@@ -1,3 +1,9 @@
+--Project Feature Description:
+
+-- Registration: a user needs to provide name, email, address, and password. The procedure should check whether the email 
+-- already exists in the users table. If so, please print a message saying the user already exists. Otherwise insert the 
+-- user into users table and print the new user ID.  
+
 /*
 FEATURE 1: Registration
 */
