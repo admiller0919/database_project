@@ -1,3 +1,10 @@
+--Project Feature Description:
+
+-- Add a review for a cinema. Input includes a user ID, cinema ID, review score, and content of review. 
+-- a.	First check whether user ID, cinema ID are valid and review score is from 1 to 5. If not print an error message. 
+-- b.	Please also check if the same user has left a review for the same cinema within 30 days. If so print an error message that you cannot review the same place twice within 30 days. Otherwise insert a new review with the review time is current time.
+
+
 /*
 FEATURE 12: Add a Review For a Cinema
 */
