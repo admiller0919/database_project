@@ -1,3 +1,15 @@
+--Project Feature Description:
+
+--*** Buy tickets for a movie show. Input includes user id, a cinema id, movie title (could be part of the full title), start time of the movie, format, #of adults, #of kids, and #of senior. 
+-- a.	Check if user id is valid. If not print an error message. 
+-- b.	Find a show time matching the input cinema id, movie title (could be part of the title), start time, and format. In case there is no matching show, print an error message. In case of there are multiple matches, print a message please provide more specific movie title. 
+-- c.	Next check whether there are enough seats (capacity of the cinema auditorium - sold tickets of this show>= total tickets requested including adult, child, and senior tickets). If there are not enough seats left print an error message.
+-- d.	If there are enough seats, create a new transaction, compute the total due as sum of each ticket ‘s price (discount needs to be applied based on type of tickets), plus $1.50 per ticket fee and 6% tax. Set the transaction status to unpaid. 
+-- e.	Please print out the detail breakdown of the total including price for each category (adult, child, senior), #of tickets in each category, total in each category, fee, tax and final total.
+-- f.	If the capacity of the auditorium has been reached (sold tickets + this transaction’s quantity = auditorium’s capacity), update the show to be full. 
+-- g.	Also create tickets with status 0 (not issued, a ticket will only be issued after payment) and appropriate ticket type (adult, child, senior), leave seat id as null as it will be assigned in feature 9.
+
+
 /*
 FEATURE 8: Buy Tickets for a Movie Show
 */
