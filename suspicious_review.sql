@@ -1,3 +1,7 @@
+--Project Feature Description:
+
+-- ** Identify suspicions reviews. Suspicious reviews are those 1) very short (no more than x characters long where x is input and with extreme scores (1 or 5); or 2) the reviewer has never purchased any tickets for shows at the reviewed cinema. For example, if a reviewer A has left a review for cinema X. But only users B, C, and D have purchased tickets at X (they have transactions with shows at X), then A's review for X is fake. Please print out review id and reason for fake review.
+
 /*
 FEATURE 16: Identify Suspicious Reviews
 */
